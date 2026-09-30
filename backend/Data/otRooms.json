@@ -1,0 +1,58 @@
+[
+  {
+    "id": "OT-1",
+    "name": "OT-1",
+    "status": "occupied",
+    "currentPatient": "Vikram Das",
+    "currentSurgery": "Craniotomy",
+    "nextPatient": "Ananya Ravi",
+    "nextTime": "14:30",
+    "specialization": "Neurosurgery"
+  },
+  {
+    "id": "OT-2",
+    "name": "OT-2",
+    "status": "occupied",
+    "currentPatient": "Sanjay Kumar",
+    "currentSurgery": "Emergency Laparotomy",
+    "nextPatient": "Karthik S.",
+    "nextTime": "15:00",
+    "specialization": "General Surgery"
+  },
+  {
+    "id": "OT-3",
+    "name": "OT-3",
+    "status": "available",
+    "specialization": "Orthopaedics"
+  },
+  {
+    "id": "OT-4",
+    "name": "OT-4",
+    "status": "cleaning",
+    "specialization": "General Surgery"
+  },
+  {
+    "id": "OT-5",
+    "name": "OT-5",
+    "status": "available",
+    "specialization": "Gynaecology"
+  },
+  {
+    "id": "OT-6",
+    "name": "OT-6",
+    "status": "maintenance",
+    "specialization": "Cardiothoracic"
+  },
+  {
+    "id": "OT-7",
+    "name": "OT-7",
+    "status": "available",
+    "specialization": "ENT / Ophthalmology"
+  },
+  {
+    "id": "OT-8",
+    "name": "OT-8",
+    "status": "available",
+    "specialization": "Urology / Laparoscopy"
+  }
+]

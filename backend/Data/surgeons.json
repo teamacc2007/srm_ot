@@ -1,0 +1,66 @@
+[
+  {
+    "id": "S001",
+    "name": "Dr. Rajesh Kumar",
+    "department": "General Surgery",
+    "designation": "Senior Consultant",
+    "available": true,
+    "scheduledSurgeries": 3
+  },
+  {
+    "id": "S002",
+    "name": "Dr. Priya Sharma",
+    "department": "Orthopaedics",
+    "designation": "Consultant",
+    "available": true,
+    "scheduledSurgeries": 2
+  },
+  {
+    "id": "S003",
+    "name": "Dr. Venkat Rajan",
+    "department": "Cardiothoracic",
+    "designation": "Senior Consultant",
+    "available": false,
+    "scheduledSurgeries": 4
+  },
+  {
+    "id": "S004",
+    "name": "Dr. Meera Nair",
+    "department": "Gynaecology",
+    "designation": "Consultant",
+    "available": true,
+    "scheduledSurgeries": 2
+  },
+  {
+    "id": "S005",
+    "name": "Dr. Suresh Babu",
+    "department": "ENT",
+    "designation": "Consultant",
+    "available": true,
+    "scheduledSurgeries": 1
+  },
+  {
+    "id": "S006",
+    "name": "Dr. Anita Iyer",
+    "department": "Urology",
+    "designation": "Consultant",
+    "available": true,
+    "scheduledSurgeries": 2
+  },
+  {
+    "id": "S007",
+    "name": "Dr. Kiran Reddy",
+    "department": "Neurosurgery",
+    "designation": "Senior Consultant",
+    "available": false,
+    "scheduledSurgeries": 1
+  },
+  {
+    "id": "S008",
+    "name": "Dr. Mohan Krishnan",
+    "department": "Oncology",
+    "designation": "Consultant",
+    "available": true,
+    "scheduledSurgeries": 2
+  }
+]

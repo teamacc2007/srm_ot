@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  srm-ot-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: srm-ot-scheduler
+    ports:
+      - "5100:5100"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:5100
+    restart: unless-stopped

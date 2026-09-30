@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'DM Mono', 'Courier New', monospace;
+
+  --color-navy-950: #060E1C;
+  --color-navy-900: #0F1E37;
+  --color-navy-800: #152948;
+  --color-navy-700: #1C3660;
+  --color-navy-600: #244478;
+  --color-navy-500: #2E548E;
+  --color-navy-400: #4A78B8;
+  --color-navy-300: #7BA3D0;
+  --color-navy-200: #B8D0E8;
+  --color-navy-100: #E0EAF4;
+
+  --color-brand-700: #1D4ED8;
+  --color-brand-600: #2563EB;
+  --color-brand-500: #3B82F6;
+  --color-brand-100: #DBEAFE;
+  --color-brand-50: #EFF6FF;
+
+  --color-surface: #FFFFFF;
+  --color-surface-secondary: #F8FAFC;
+  --color-surface-tertiary: #F1F5F9;
+
+  --color-border: #E2E8F0;
+  --color-border-strong: #CBD5E1;
+
+  --color-text-primary: #1E293B;
+  --color-text-secondary: #475569;
+  --color-text-tertiary: #94A3B8;
+
+  --color-status-scheduled-bg: #F1F5F9;
+  --color-status-scheduled-text: #475569;
+  --color-status-confirmed-bg: #DBEAFE;
+  --color-status-confirmed-text: #1D4ED8;
+  --color-status-inprogress-bg: #FEF3C7;
+  --color-status-inprogress-text: #92400E;
+  --color-status-completed-bg: #DCFCE7;
+  --color-status-completed-text: #166534;
+  --color-status-cancelled-bg: #FEE2E2;
+  --color-status-cancelled-text: #991B1B;
+  --color-status-postponed-bg: #FFF7ED;
+  --color-status-postponed-text: #9A3412;
+  --color-status-holding-bg: #F3E8FF;
+  --color-status-holding-text: #6B21A8;
+  --color-status-highrisk-bg: #FEE2E2;
+  --color-status-highrisk-text: #991B1B;
+  --color-status-cleared-bg: #DCFCE7;
+  --color-status-cleared-text: #166534;
+  --color-status-pending-bg: #FEF9C3;
+  --color-status-pending-text: #854D0E;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #FFFFFF;
+  color: #1E293B;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #94A3B8; }
+
+input, select, textarea, button { font-family: inherit; }
+
+table { border-collapse: collapse; width: 100%; }
+
+.font-mono { font-family: 'DM Mono', 'Courier New', monospace; }

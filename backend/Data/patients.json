@@ -1,0 +1,3107 @@
+[
+  {
+    "id": "P001",
+    "uhid": "SRM-2024-00001",
+    "name": "Arun Kumar",
+    "age": 38,
+    "gender": "M",
+    "bloodGroup": "B+",
+    "phone": "9841234567",
+    "department": "Orthopaedics",
+    "diagnosis": "Severe Osteoarthritis — Right Knee",
+    "surgeryType": "Total Knee Replacement (TKR)",
+    "surgeon": "Dr. Priya Sharma",
+    "surgeonId": "S002",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-3",
+    "scheduledDate": "2024-12-25",
+    "scheduledTime": "09:00",
+    "estimatedDuration": 120,
+    "status": "draft",
+    "pacStatus": "pending",
+    "priority": "elective",
+    "ward": "Orthopaedic Ward",
+    "bedNumber": "4A",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [
+      "Mild Hypertension"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Patient is ambulatory. OA of right knee — severe grade. Surgery elective.",
+    "vitals": {
+      "bp": "130/84",
+      "hr": 76,
+      "spo2": 98,
+      "temp": 37.2,
+      "rr": 16,
+      "weight": 78,
+      "height": 172
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "20 Dec 2024, 09:15",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward",
+        "notes": "Initial OT request raised."
+      }
+    ]
+  },
+  {
+    "id": "P002",
+    "uhid": "SRM-2024-00002",
+    "name": "Priya Sharma",
+    "age": 29,
+    "gender": "F",
+    "bloodGroup": "O+",
+    "phone": "9856781234",
+    "department": "General Surgery",
+    "diagnosis": "Acute Appendicitis",
+    "surgeryType": "Laparoscopic Appendectomy",
+    "surgeon": "Dr. Rajesh Kumar",
+    "surgeonId": "S001",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-2",
+    "scheduledDate": "2024-12-21",
+    "scheduledTime": "10:30",
+    "estimatedDuration": 75,
+    "status": "pending_fitness",
+    "pacStatus": "pending",
+    "priority": "elective",
+    "ward": "Surgical Ward A",
+    "bedNumber": "7B",
+    "admissionDate": "2024-12-20",
+    "allergies": [
+      "Penicillin"
+    ],
+    "comorbidities": [],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-I",
+    "notes": "Acute appendicitis — WBC elevated. NBM since 10 PM.",
+    "vitals": {
+      "bp": "118/76",
+      "hr": 94,
+      "spo2": 98,
+      "temp": 37.8,
+      "rr": 18,
+      "weight": 58,
+      "height": 162
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "20 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "20 Dec 2024, 10:45",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward",
+        "notes": "Sent to Anaesthesia for fitness evaluation."
+      }
+    ]
+  },
+  {
+    "id": "P003",
+    "uhid": "SRM-2024-00003",
+    "name": "Rahul Menon",
+    "age": 52,
+    "gender": "M",
+    "bloodGroup": "A+",
+    "phone": "9823456789",
+    "department": "General Surgery",
+    "diagnosis": "Cholelithiasis with Cholecystitis",
+    "surgeryType": "Laparoscopic Cholecystectomy",
+    "surgeon": "Dr. Rajesh Kumar",
+    "surgeonId": "S001",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-4",
+    "scheduledDate": "2024-12-22",
+    "scheduledTime": "08:00",
+    "estimatedDuration": 90,
+    "status": "pending_scheduling",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Surgical Ward B",
+    "bedNumber": "12C",
+    "admissionDate": "2024-12-19",
+    "allergies": [],
+    "comorbidities": [
+      "Type 2 Diabetes"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Recurrent cholelithiasis. PAC cleared. Awaiting OT scheduling.",
+    "vitals": {
+      "bp": "134/86",
+      "hr": 80,
+      "spo2": 98,
+      "temp": 37.2,
+      "rr": 16,
+      "weight": 82,
+      "height": 170
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "18 Dec 2024, 09:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "18 Dec 2024, 14:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "19 Dec 2024, 11:30",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "General Anaesthesia, ASA-II. Fit for surgery."
+      }
+    ]
+  },
+  {
+    "id": "P004",
+    "uhid": "SRM-2024-00004",
+    "name": "Divya Raj",
+    "age": 44,
+    "gender": "F",
+    "bloodGroup": "AB+",
+    "phone": "9812345678",
+    "department": "Gynaecology",
+    "diagnosis": "Fibroid Uterus with Menorrhagia",
+    "surgeryType": "Total Abdominal Hysterectomy",
+    "surgeon": "Dr. Meera Nair",
+    "surgeonId": "S004",
+    "anaesthesiologist": "Dr. Lakshmi Subramanian",
+    "anaesthesiologistId": "A002",
+    "otRoom": "OT-5",
+    "scheduledDate": "2024-12-23",
+    "scheduledTime": "09:30",
+    "estimatedDuration": 150,
+    "status": "ready_for_hod_approval",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Gynaecology Ward",
+    "bedNumber": "2A",
+    "admissionDate": "2024-12-20",
+    "allergies": [
+      "Latex"
+    ],
+    "comorbidities": [
+      "Anaemia"
+    ],
+    "anaesthesiaType": "Spinal + Epidural",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Large fibroid. Pre-op Hb corrected. Schedule pending HOD final clearance.",
+    "vitals": {
+      "bp": "122/80",
+      "hr": 82,
+      "spo2": 98,
+      "temp": 37,
+      "rr": 16,
+      "weight": 64,
+      "height": 158
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "17 Dec 2024, 08:30",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "17 Dec 2024, 13:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "18 Dec 2024, 10:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Spinal+Epidural. ASA-II."
+      },
+      {
+        "timestamp": "18 Dec 2024, 16:00",
+        "action": "Surgery Scheduled",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "ready_for_hod_approval",
+        "performedBy": "Surgery OP Ward",
+        "notes": "OT-5, 23 Dec 09:30."
+      }
+    ]
+  },
+  {
+    "id": "P005",
+    "uhid": "SRM-2024-00005",
+    "name": "Karthik S.",
+    "age": 61,
+    "gender": "M",
+    "bloodGroup": "B-",
+    "phone": "9867890123",
+    "department": "Urology",
+    "diagnosis": "Benign Prostatic Hyperplasia (BPH)",
+    "surgeryType": "TURP (Transurethral Resection of Prostate)",
+    "surgeon": "Dr. Anita Iyer",
+    "surgeonId": "S006",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-8",
+    "scheduledDate": "2024-12-24",
+    "scheduledTime": "11:00",
+    "estimatedDuration": 90,
+    "status": "pending_dept_approval",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Urology Ward",
+    "bedNumber": "9C",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [
+      "Hypertension",
+      "Type 2 Diabetes"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "BPH with urinary retention. Catheterized. Blood sugar controlled. Awaiting HOD approval.",
+    "vitals": {
+      "bp": "144/90",
+      "hr": 88,
+      "spo2": 97,
+      "temp": 37,
+      "rr": 16,
+      "weight": 85,
+      "height": 168
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "16 Dec 2024, 09:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 14:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "17 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Spinal. ASA-III. Note DM + HTN."
+      },
+      {
+        "timestamp": "17 Dec 2024, 16:00",
+        "action": "Surgery Scheduled",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "ready_for_hod_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "18 Dec 2024, 09:30",
+        "action": "Submitted for HOD Approval",
+        "fromStatus": "ready_for_hod_approval",
+        "toStatus": "pending_dept_approval",
+        "performedBy": "Surgery OP Ward"
+      }
+    ]
+  },
+  {
+    "id": "P006",
+    "uhid": "SRM-2024-00006",
+    "name": "Meena Joseph",
+    "age": 47,
+    "gender": "F",
+    "bloodGroup": "A-",
+    "phone": "9878901234",
+    "department": "ENT",
+    "diagnosis": "Multinodular Goitre",
+    "surgeryType": "Total Thyroidectomy",
+    "surgeon": "Dr. Suresh Babu",
+    "surgeonId": "S005",
+    "anaesthesiologist": "Dr. Lakshmi Subramanian",
+    "anaesthesiologistId": "A002",
+    "otRoom": "OT-7",
+    "scheduledDate": "2024-12-23",
+    "scheduledTime": "08:30",
+    "estimatedDuration": 180,
+    "status": "pending_ot_assignment",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "ENT Ward",
+    "bedNumber": "3B",
+    "admissionDate": "2024-12-19",
+    "allergies": [
+      "Aspirin"
+    ],
+    "comorbidities": [
+      "Hyperthyroidism (controlled)"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Thyroid function normalized. Video laryngoscopy may be needed. Awaiting OT assignment.",
+    "vitals": {
+      "bp": "126/82",
+      "hr": 78,
+      "spo2": 98,
+      "temp": 37,
+      "rr": 16,
+      "weight": 66,
+      "height": 160
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "15 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "15 Dec 2024, 15:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 10:30",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA. Possible difficult airway. Video laryngoscope on standby."
+      },
+      {
+        "timestamp": "16 Dec 2024, 16:00",
+        "action": "Surgery Scheduled",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "ready_for_hod_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "17 Dec 2024, 09:00",
+        "action": "Submitted for HOD Approval",
+        "fromStatus": "ready_for_hod_approval",
+        "toStatus": "pending_dept_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "17 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      }
+    ]
+  },
+  {
+    "id": "P007",
+    "uhid": "SRM-2024-00007",
+    "name": "Sanjay Kumar",
+    "age": 34,
+    "gender": "M",
+    "bloodGroup": "O-",
+    "phone": "9890123456",
+    "department": "General Surgery",
+    "diagnosis": "Hollow Viscus Perforation",
+    "surgeryType": "Emergency Exploratory Laparotomy",
+    "surgeon": "Dr. Rajesh Kumar",
+    "surgeonId": "S001",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-2",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "13:00",
+    "estimatedDuration": 120,
+    "status": "pending_anaes_approval",
+    "pacStatus": "cleared",
+    "priority": "daycare",
+    "ward": "Surgical ICU",
+    "bedNumber": "ICU-2",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "General Anaesthesia (RSI)",
+    "anaesthesiaRisk": "ASA-IV",
+    "notes": "EMERGENCY. Peritonitis. Not fasted. RSI protocol. Vasopressors may be needed.",
+    "vitals": {
+      "bp": "90/60",
+      "hr": 112,
+      "spo2": 96,
+      "temp": 38.8,
+      "rr": 22,
+      "weight": 70,
+      "height": 175
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": false,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "emergency",
+    "history": [
+      {
+        "timestamp": "20 Dec 2024, 10:30",
+        "action": "Emergency Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "20 Dec 2024, 10:45",
+        "action": "Emergency — Direct OT Assignment",
+        "fromStatus": "draft",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Surgery OP Ward",
+        "notes": "Emergency bypass — PAC waived."
+      },
+      {
+        "timestamp": "20 Dec 2024, 11:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-2. ICU nurses on standby."
+      }
+    ]
+  },
+  {
+    "id": "P008",
+    "uhid": "SRM-2024-00008",
+    "name": "Ananya Ravi",
+    "age": 58,
+    "gender": "F",
+    "bloodGroup": "B+",
+    "phone": "9801234567",
+    "department": "Cardiothoracic",
+    "diagnosis": "Triple Vessel Coronary Artery Disease",
+    "surgeryType": "CABG (Coronary Artery Bypass Grafting)",
+    "surgeon": "Dr. Venkat Rajan",
+    "surgeonId": "S003",
+    "anaesthesiologist": "Dr. Lakshmi Subramanian",
+    "anaesthesiologistId": "A002",
+    "otRoom": "OT-1",
+    "scheduledDate": "2024-12-21",
+    "scheduledTime": "07:30",
+    "estimatedDuration": 300,
+    "status": "scheduled",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "CTVS Ward",
+    "bedNumber": "CTVS-1",
+    "admissionDate": "2024-12-18",
+    "allergies": [
+      "NSAIDs"
+    ],
+    "comorbidities": [
+      "Diabetes",
+      "Hypertension",
+      "Hyperlipidaemia"
+    ],
+    "anaesthesiaType": "General Anaesthesia (OLV)",
+    "anaesthesiaRisk": "ASA-IV",
+    "notes": "Triple vessel disease. EF 40%. Team briefing at 07:00. IABP on standby.",
+    "vitals": {
+      "bp": "150/92",
+      "hr": 86,
+      "spo2": 97,
+      "temp": 37,
+      "rr": 16,
+      "weight": 72,
+      "height": 160
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "scrubNurse": "Sr. Kamala",
+    "floorNurse": "Sr. Radha",
+    "otatTechnician": "Mr. Selvam",
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "14 Dec 2024, 09:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "14 Dec 2024, 13:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "15 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA with OLV. ASA-IV. High-risk case."
+      },
+      {
+        "timestamp": "15 Dec 2024, 16:30",
+        "action": "Surgery Scheduled",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "ready_for_hod_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 09:00",
+        "action": "Submitted for HOD Approval",
+        "fromStatus": "ready_for_hod_approval",
+        "toStatus": "pending_dept_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "17 Dec 2024, 10:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-1, CTVS team."
+      },
+      {
+        "timestamp": "18 Dec 2024, 09:00",
+        "action": "Anaesthesia Approved",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia",
+        "notes": "Dr. Lakshmi assigned."
+      }
+    ]
+  },
+  {
+    "id": "P009",
+    "uhid": "SRM-2024-00009",
+    "name": "Vikram Das",
+    "age": 41,
+    "gender": "M",
+    "bloodGroup": "A+",
+    "phone": "9834567890",
+    "department": "Neurosurgery",
+    "diagnosis": "Subdural Haematoma",
+    "surgeryType": "Emergency Craniotomy",
+    "surgeon": "Dr. Kiran Reddy",
+    "surgeonId": "S007",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-1",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "08:00",
+    "estimatedDuration": 180,
+    "status": "in_progress",
+    "pacStatus": "cleared",
+    "priority": "daycare",
+    "ward": "Neuro ICU",
+    "bedNumber": "NICU-1",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "General Anaesthesia (ICP protocol)",
+    "anaesthesiaRisk": "ASA-IV",
+    "notes": "Post-RTA. GCS 9. Urgent decompression in progress.",
+    "vitals": {
+      "bp": "160/98",
+      "hr": 104,
+      "spo2": 96,
+      "temp": 37.4,
+      "rr": 20,
+      "weight": 80,
+      "height": 178
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": false,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "emergency",
+    "history": [
+      {
+        "timestamp": "20 Dec 2024, 07:00",
+        "action": "Emergency Request",
+        "fromStatus": "draft",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "20 Dec 2024, 07:15",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "20 Dec 2024, 07:20",
+        "action": "Anaesthesia Approved",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      },
+      {
+        "timestamp": "20 Dec 2024, 08:00",
+        "action": "Surgery Started",
+        "fromStatus": "scheduled",
+        "toStatus": "in_progress",
+        "performedBy": "OT Matron"
+      }
+    ]
+  },
+  {
+    "id": "P010",
+    "uhid": "SRM-2024-00010",
+    "name": "Nisha Krishnan",
+    "age": 55,
+    "gender": "F",
+    "bloodGroup": "O+",
+    "phone": "9845678901",
+    "department": "Orthopaedics",
+    "diagnosis": "Femoral Neck Fracture",
+    "surgeryType": "Total Hip Replacement (THR)",
+    "surgeon": "Dr. Priya Sharma",
+    "surgeonId": "S002",
+    "anaesthesiologist": "Dr. Lakshmi Subramanian",
+    "anaesthesiologistId": "A002",
+    "otRoom": "OT-3",
+    "scheduledDate": "2024-12-19",
+    "scheduledTime": "09:00",
+    "estimatedDuration": 150,
+    "status": "completed",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Orthopaedic Ward",
+    "bedNumber": "5B",
+    "admissionDate": "2024-12-17",
+    "allergies": [],
+    "comorbidities": [
+      "Osteoporosis"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "Surgery completed uneventfully. Patient transferred to recovery.",
+    "vitals": {
+      "bp": "124/80",
+      "hr": 72,
+      "spo2": 99,
+      "temp": 37,
+      "rr": 14,
+      "weight": 62,
+      "height": 155
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "actualStartTime": "09:10",
+    "actualEndTime": "11:45",
+    "pmrStatus": "completed",
+    "hpeStatus": "sent",
+    "intraOpNotes": "No intra-op complications. EBL 300 ml. 1 unit PRBC transfused.",
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "14 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "15 Dec 2024, 10:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP"
+      },
+      {
+        "timestamp": "15 Dec 2024, 15:00",
+        "action": "Surgery Scheduled",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "ready_for_hod_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 13:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "16 Dec 2024, 16:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "17 Dec 2024, 09:00",
+        "action": "Anaesthesia Approved",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      },
+      {
+        "timestamp": "19 Dec 2024, 09:10",
+        "action": "Surgery Started",
+        "fromStatus": "scheduled",
+        "toStatus": "in_progress",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "19 Dec 2024, 11:45",
+        "action": "Surgery Completed",
+        "fromStatus": "in_progress",
+        "toStatus": "completed",
+        "performedBy": "OT Matron",
+        "notes": "No complications. PMR filed."
+      }
+    ]
+  },
+  {
+    "id": "P011",
+    "uhid": "SRM-2024-00011",
+    "name": "Ramesh B.",
+    "age": 48,
+    "gender": "M",
+    "bloodGroup": "B+",
+    "phone": "9823451234",
+    "department": "Orthopaedics",
+    "diagnosis": "Degenerative Disc Disease L4–L5",
+    "surgeryType": "Spinal Fusion (PLIF)",
+    "surgeon": "Dr. Kiran Reddy",
+    "surgeonId": "S007",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "",
+    "scheduledDate": "",
+    "scheduledTime": "",
+    "estimatedDuration": 180,
+    "status": "cancelled",
+    "pacStatus": "deferred",
+    "priority": "elective",
+    "ward": "Orthopaedic Ward",
+    "bedNumber": "8D",
+    "admissionDate": "2024-12-15",
+    "allergies": [
+      "Iodine"
+    ],
+    "comorbidities": [
+      "Uncontrolled Hypertension",
+      "Mild CKD"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "Cancelled — uncontrolled hypertension (BP 180/110). Cardiologist review required.",
+    "vitals": {
+      "bp": "180/110",
+      "hr": 96,
+      "spo2": 97,
+      "temp": 37,
+      "rr": 16,
+      "weight": 90,
+      "height": 170
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": false,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "12 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "12 Dec 2024, 14:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "13 Dec 2024, 11:00",
+        "action": "PAC — Unfit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "cancelled",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Uncontrolled HTN (BP 180/110). Cardiologist review needed."
+      }
+    ]
+  },
+  {
+    "id": "P012",
+    "uhid": "SRM-2024-00012",
+    "name": "Lakshmi Devi",
+    "age": 50,
+    "gender": "F",
+    "bloodGroup": "O-",
+    "phone": "9867451230",
+    "department": "Oncology",
+    "diagnosis": "Right Breast Carcinoma (Stage II)",
+    "surgeryType": "Modified Radical Mastectomy (MRM)",
+    "surgeon": "Dr. Mohan Krishnan",
+    "surgeonId": "S008",
+    "anaesthesiologist": "Dr. Lakshmi Subramanian",
+    "anaesthesiologistId": "A002",
+    "otRoom": "OT-5",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "11:00",
+    "estimatedDuration": 180,
+    "status": "postponed",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Oncology Ward",
+    "bedNumber": "6A",
+    "admissionDate": "2024-12-16",
+    "allergies": [],
+    "comorbidities": [
+      "Anaemia (Hb 8.2)"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "Postponed — Hb 8.2 g/dL. 2 units PRBC transfusion ordered. Review on 24 Dec.",
+    "vitals": {
+      "bp": "126/80",
+      "hr": 84,
+      "spo2": 98,
+      "temp": 37,
+      "rr": 16,
+      "weight": 60,
+      "height": 154
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": true
+    },
+    "surgeryCategory": "elective",
+    "postponedFromStatus": "scheduled",
+    "postponementReason": "Low Haemoglobin (Hb 8.2) — transfusion + review on 24 Dec.",
+    "history": [
+      {
+        "timestamp": "13 Dec 2024, 09:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "14 Dec 2024, 10:30",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA. ASA-III. Monitor Hb."
+      },
+      {
+        "timestamp": "15 Dec 2024, 09:00",
+        "action": "Submitted for HOD Approval",
+        "fromStatus": "ready_for_hod_approval",
+        "toStatus": "pending_dept_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "15 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "16 Dec 2024, 14:00",
+        "action": "Anaesthesia Approved",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      },
+      {
+        "timestamp": "20 Dec 2024, 08:00",
+        "action": "Surgery Postponed",
+        "fromStatus": "scheduled",
+        "toStatus": "postponed",
+        "performedBy": "Department HOD",
+        "notes": "Hb 8.2 — transfusion + review 24 Dec."
+      }
+    ]
+  },
+  {
+    "id": "P013",
+    "uhid": "SRM-2024-00013",
+    "name": "Gopal Krishnamurthy",
+    "age": 65,
+    "gender": "M",
+    "bloodGroup": "B+",
+    "phone": "9876543013",
+    "department": "Vascular Surgery",
+    "diagnosis": "Abdominal Aortic Aneurysm (5.8 cm)",
+    "surgeryType": "Endovascular Aortic Aneurysm Repair (EVAR)",
+    "surgeon": "Dr. Senthil Murugan",
+    "surgeonId": "S009",
+    "anaesthesiologist": "Dr. Prabhu Anandan",
+    "anaesthesiologistId": "A003",
+    "otRoom": "OT-2",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "09:00",
+    "estimatedDuration": 210,
+    "status": "scheduled",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Surgical HDU",
+    "bedNumber": "3B",
+    "admissionDate": "2024-12-18",
+    "allergies": [
+      "Aspirin"
+    ],
+    "comorbidities": [
+      "Hypertension",
+      "Diabetes Mellitus Type 2"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "Pre-op BP controlled. Endovascular team alerted.",
+    "vitals": {
+      "bp": "138/86",
+      "hr": 74,
+      "spo2": 97,
+      "temp": 37.1,
+      "rr": 15,
+      "weight": 78,
+      "height": 170
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": true
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "10 Dec 2024, 09:30",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "11 Dec 2024, 10:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA, ASA-III. BP controlled on amlodipine."
+      },
+      {
+        "timestamp": "12 Dec 2024, 09:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "13 Dec 2024, 14:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-2, 20 Dec 09:00"
+      },
+      {
+        "timestamp": "14 Dec 2024, 11:00",
+        "action": "Anaesthesia Approved",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      }
+    ]
+  },
+  {
+    "id": "P014",
+    "uhid": "SRM-2024-00014",
+    "name": "Sunita Meenakshisundaram",
+    "age": 42,
+    "gender": "F",
+    "bloodGroup": "AB+",
+    "phone": "9876543014",
+    "department": "Gynaecology",
+    "diagnosis": "Uterine Leiomyoma (Symptomatic)",
+    "surgeryType": "Total Abdominal Hysterectomy (TAH)",
+    "surgeon": "Dr. Kavitha Suresh",
+    "surgeonId": "S010",
+    "anaesthesiologist": "Dr. Ravi Sundaram",
+    "anaesthesiologistId": "A004",
+    "otRoom": "OT-3",
+    "scheduledDate": "2024-12-21",
+    "scheduledTime": "10:00",
+    "estimatedDuration": 120,
+    "status": "scheduled",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Gynaecology Ward",
+    "bedNumber": "7C",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [
+      "Iron Deficiency Anaemia (corrected)"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Hb 11.2 post-transfusion. Cleared for surgery.",
+    "vitals": {
+      "bp": "118/74",
+      "hr": 78,
+      "spo2": 99,
+      "temp": 36.8,
+      "rr": 14,
+      "weight": 65,
+      "height": 160
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "12 Dec 2024, 11:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "13 Dec 2024, 09:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Spinal, ASA-II."
+      },
+      {
+        "timestamp": "15 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "16 Dec 2024, 10:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-3, 21 Dec 10:00"
+      },
+      {
+        "timestamp": "17 Dec 2024, 09:00",
+        "action": "Anaesthesia Approved",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      }
+    ]
+  },
+  {
+    "id": "P015",
+    "uhid": "SRM-2024-00015",
+    "name": "Balasubramanian R",
+    "age": 58,
+    "gender": "M",
+    "bloodGroup": "O+",
+    "phone": "9876543015",
+    "department": "Urology",
+    "diagnosis": "Right Renal Cell Carcinoma (T2N0M0)",
+    "surgeryType": "Laparoscopic Radical Nephrectomy (Right)",
+    "surgeon": "Dr. Rajesh Kannan",
+    "surgeonId": "S005",
+    "anaesthesiologist": "Dr. Prabhu Anandan",
+    "anaesthesiologistId": "A003",
+    "otRoom": "OT-4",
+    "scheduledDate": "2024-12-19",
+    "scheduledTime": "08:30",
+    "estimatedDuration": 180,
+    "status": "completed",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Urology Ward",
+    "bedNumber": "2D",
+    "admissionDate": "2024-12-17",
+    "allergies": [],
+    "comorbidities": [
+      "Hypertension"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Surgery completed uneventfully. Specimen sent for HPE.",
+    "vitals": {
+      "bp": "132/82",
+      "hr": 70,
+      "spo2": 98,
+      "temp": 36.9,
+      "rr": 14,
+      "weight": 72,
+      "height": 168
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "actualStartTime": "08:45",
+    "actualEndTime": "11:30",
+    "pmrStatus": "completed",
+    "hpeStatus": "sent",
+    "intraOpNotes": "No intra-op complications. EBL 200 mL. Specimen intact.",
+    "history": [
+      {
+        "timestamp": "05 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "06 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP"
+      },
+      {
+        "timestamp": "10 Dec 2024, 09:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "12 Dec 2024, 14:00",
+        "action": "Anaesthesia Approved → Scheduled",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      },
+      {
+        "timestamp": "19 Dec 2024, 08:45",
+        "action": "Surgery Started",
+        "fromStatus": "scheduled",
+        "toStatus": "in_progress",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "19 Dec 2024, 11:30",
+        "action": "Surgery Completed",
+        "fromStatus": "in_progress",
+        "toStatus": "completed",
+        "performedBy": "OT Matron",
+        "notes": "No complications. HPE sent."
+      }
+    ]
+  },
+  {
+    "id": "P016",
+    "uhid": "SRM-2024-00016",
+    "name": "Kavitha Narayanan",
+    "age": 35,
+    "gender": "F",
+    "bloodGroup": "A-",
+    "phone": "9876543016",
+    "department": "General Surgery",
+    "diagnosis": "Right Inguinal Hernia (Reducible)",
+    "surgeryType": "Laparoscopic Total Extraperitoneal Hernia Repair (TEP)",
+    "surgeon": "Dr. Arjun Nair",
+    "surgeonId": "S002",
+    "anaesthesiologist": "Dr. Ananya Krishnan",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-1",
+    "scheduledDate": "2024-12-18",
+    "scheduledTime": "11:00",
+    "estimatedDuration": 90,
+    "status": "completed",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "General Ward",
+    "bedNumber": "5A",
+    "admissionDate": "2024-12-17",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-I",
+    "notes": "Day case. Discharged same evening. Uneventful.",
+    "vitals": {
+      "bp": "112/70",
+      "hr": 68,
+      "spo2": 100,
+      "temp": 36.6,
+      "rr": 14,
+      "weight": 58,
+      "height": 163
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "actualStartTime": "11:10",
+    "actualEndTime": "12:35",
+    "pmrStatus": "completed",
+    "hpeStatus": "not_sent",
+    "history": [
+      {
+        "timestamp": "14 Dec 2024, 09:00",
+        "action": "Request Created & Scheduled",
+        "fromStatus": "draft",
+        "toStatus": "scheduled",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "18 Dec 2024, 11:10",
+        "action": "Surgery Started",
+        "fromStatus": "scheduled",
+        "toStatus": "in_progress",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "18 Dec 2024, 12:35",
+        "action": "Surgery Completed",
+        "fromStatus": "in_progress",
+        "toStatus": "completed",
+        "performedBy": "OT Matron"
+      }
+    ]
+  },
+  {
+    "id": "P017",
+    "uhid": "SRM-2024-00017",
+    "name": "Mohammed Yusuf Khan",
+    "age": 72,
+    "gender": "M",
+    "bloodGroup": "B-",
+    "phone": "9876543017",
+    "department": "Orthopaedics",
+    "diagnosis": "Left Femoral Neck Fracture (Garden III)",
+    "surgeryType": "Left Hip Hemiarthroplasty (Cemented)",
+    "surgeon": "Dr. Priya Venkataramaiah",
+    "surgeonId": "S004",
+    "anaesthesiologist": "Dr. Ravi Sundaram",
+    "anaesthesiologistId": "A004",
+    "otRoom": "OT-2",
+    "scheduledDate": "2024-12-17",
+    "scheduledTime": "08:00",
+    "estimatedDuration": 120,
+    "status": "completed",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Orthopaedics Ward",
+    "bedNumber": "4B",
+    "admissionDate": "2024-12-16",
+    "allergies": [
+      "Penicillin"
+    ],
+    "comorbidities": [
+      "Diabetes Mellitus",
+      "Hypertension",
+      "CKD Stage 2"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "Spinal GA. Emergency fast-track. Clearance done bedside.",
+    "vitals": {
+      "bp": "145/88",
+      "hr": 82,
+      "spo2": 96,
+      "temp": 37.2,
+      "rr": 16,
+      "weight": 65,
+      "height": 165
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "emergency",
+    "actualStartTime": "08:20",
+    "actualEndTime": "10:15",
+    "pmrStatus": "completed",
+    "hpeStatus": "not_sent",
+    "history": [
+      {
+        "timestamp": "16 Dec 2024, 22:00",
+        "action": "Emergency Admission — Fast Track",
+        "fromStatus": "draft",
+        "toStatus": "scheduled",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "17 Dec 2024, 08:20",
+        "action": "Surgery Started",
+        "fromStatus": "scheduled",
+        "toStatus": "in_progress",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "17 Dec 2024, 10:15",
+        "action": "Surgery Completed",
+        "fromStatus": "in_progress",
+        "toStatus": "completed",
+        "performedBy": "OT Matron"
+      }
+    ]
+  },
+  {
+    "id": "P018",
+    "uhid": "SRM-2024-00018",
+    "name": "Nalini Chandran",
+    "age": 48,
+    "gender": "F",
+    "bloodGroup": "O+",
+    "phone": "9876543018",
+    "department": "Neurosurgery",
+    "diagnosis": "L4-L5 Lumbar Disc Prolapse with Radiculopathy",
+    "surgeryType": "L4-L5 Lumbar Microdiscectomy",
+    "surgeon": "Dr. Ramesh Chandrasekhar",
+    "surgeonId": "S006",
+    "anaesthesiologist": "Dr. Ananya Krishnan",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-3",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "07:30",
+    "estimatedDuration": 90,
+    "status": "in_progress",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Neuro Ward",
+    "bedNumber": "1A",
+    "admissionDate": "2024-12-19",
+    "allergies": [],
+    "comorbidities": [
+      "Type 2 Diabetes (controlled)"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Surgery in progress. Prone position. Neuro monitoring active.",
+    "vitals": {
+      "bp": "122/78",
+      "hr": 72,
+      "spo2": 99,
+      "temp": 36.8,
+      "rr": 14,
+      "weight": 62,
+      "height": 158
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "actualStartTime": "07:45",
+    "history": [
+      {
+        "timestamp": "15 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP"
+      },
+      {
+        "timestamp": "17 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "18 Dec 2024, 09:00",
+        "action": "Anaesthesia Approved → Scheduled",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      },
+      {
+        "timestamp": "20 Dec 2024, 07:45",
+        "action": "Surgery Started",
+        "fromStatus": "scheduled",
+        "toStatus": "in_progress",
+        "performedBy": "OT Matron"
+      }
+    ]
+  },
+  {
+    "id": "P019",
+    "uhid": "SRM-2024-00019",
+    "name": "Thirumoorthy Subramanian",
+    "age": 44,
+    "gender": "M",
+    "bloodGroup": "A+",
+    "phone": "9876543019",
+    "department": "ENT",
+    "diagnosis": "Deviated Nasal Septum + Chronic Sinusitis",
+    "surgeryType": "Septoplasty + Functional Endoscopic Sinus Surgery (FESS)",
+    "surgeon": "Dr. Aarthi Balakrishnan",
+    "surgeonId": "S011",
+    "anaesthesiologist": "",
+    "anaesthesiologistId": "",
+    "otRoom": "",
+    "scheduledDate": "2024-12-24",
+    "scheduledTime": "",
+    "estimatedDuration": 90,
+    "status": "pending_fitness",
+    "pacStatus": "pending",
+    "priority": "elective",
+    "ward": "ENT Ward",
+    "bedNumber": "9A",
+    "admissionDate": "2024-12-19",
+    "allergies": [],
+    "comorbidities": [
+      "Mild Asthma"
+    ],
+    "anaesthesiaType": "",
+    "anaesthesiaRisk": "ASA-I",
+    "notes": "Awaiting PAC clearance. Mild asthma — needs spirometry.",
+    "vitals": {
+      "bp": "120/76",
+      "hr": 74,
+      "spo2": 98,
+      "temp": 36.7,
+      "rr": 15,
+      "weight": 74,
+      "height": 172
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "18 Dec 2024, 14:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "19 Dec 2024, 09:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward"
+      }
+    ]
+  },
+  {
+    "id": "P020",
+    "uhid": "SRM-2024-00020",
+    "name": "Bhuvaneswari Krishnaswamy",
+    "age": 56,
+    "gender": "F",
+    "bloodGroup": "AB-",
+    "phone": "9876543020",
+    "department": "Surgical Oncology",
+    "diagnosis": "Carcinoma Right Colon (Hepatic Flexure, T3N1M0)",
+    "surgeryType": "Right Hemicolectomy with Ileo-Colic Anastomosis",
+    "surgeon": "Dr. Mohan Krishnan",
+    "surgeonId": "S008",
+    "anaesthesiologist": "",
+    "anaesthesiologistId": "",
+    "otRoom": "",
+    "scheduledDate": "2024-12-26",
+    "scheduledTime": "",
+    "estimatedDuration": 240,
+    "status": "draft",
+    "pacStatus": "pending",
+    "priority": "elective",
+    "ward": "Oncology Ward",
+    "bedNumber": "8B",
+    "admissionDate": "2024-12-19",
+    "allergies": [
+      "Sulfonamides"
+    ],
+    "comorbidities": [
+      "Hypertension",
+      "Type 2 Diabetes"
+    ],
+    "anaesthesiaType": "",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "New case. Needs PAC, imaging review and MDT clearance.",
+    "vitals": {
+      "bp": "136/84",
+      "hr": 80,
+      "spo2": 97,
+      "temp": 37,
+      "rr": 15,
+      "weight": 68,
+      "height": 155
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "19 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      }
+    ]
+  },
+  {
+    "id": "P021",
+    "uhid": "SRM-2024-00021",
+    "name": "Venkatesh Raghavan",
+    "age": 63,
+    "gender": "M",
+    "bloodGroup": "B+",
+    "phone": "9876543021",
+    "department": "Cardiothoracic Surgery",
+    "diagnosis": "Mitral Valve Stenosis with Regurgitation",
+    "surgeryType": "Mitral Valve Repair with Ring Annuloplasty",
+    "surgeon": "Dr. Senthil Murugan",
+    "surgeonId": "S009",
+    "anaesthesiologist": "",
+    "anaesthesiologistId": "",
+    "otRoom": "",
+    "scheduledDate": "2024-12-23",
+    "scheduledTime": "",
+    "estimatedDuration": 300,
+    "status": "pending_scheduling",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Cardiology Ward",
+    "bedNumber": "12A",
+    "admissionDate": "2024-12-17",
+    "allergies": [
+      "Iodine Contrast"
+    ],
+    "comorbidities": [
+      "Atrial Fibrillation",
+      "Hypertension",
+      "NYHA Class III"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "PAC cleared. Cardiology signed off. Awaiting ward scheduling and HOD submission.",
+    "vitals": {
+      "bp": "130/80",
+      "hr": 88,
+      "spo2": 96,
+      "temp": 36.9,
+      "rr": 16,
+      "weight": 70,
+      "height": 167
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "12 Dec 2024, 11:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "14 Dec 2024, 09:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA, ASA-III. Echo done."
+      }
+    ]
+  },
+  {
+    "id": "P022",
+    "uhid": "SRM-2024-00022",
+    "name": "Prema Selvaraj",
+    "age": 39,
+    "gender": "F",
+    "bloodGroup": "O-",
+    "phone": "9876543022",
+    "department": "Gynaecology",
+    "diagnosis": "Uterine Fibroids (Multiple, Symptomatic)",
+    "surgeryType": "Laparoscopic Myomectomy",
+    "surgeon": "Dr. Kavitha Suresh",
+    "surgeonId": "S010",
+    "anaesthesiologist": "Dr. Ravi Sundaram",
+    "anaesthesiologistId": "A004",
+    "otRoom": "",
+    "scheduledDate": "2024-12-24",
+    "scheduledTime": "",
+    "estimatedDuration": 150,
+    "status": "pending_ot_assignment",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Gynaecology Ward",
+    "bedNumber": "6C",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Awaiting OT assignment and slot booking.",
+    "vitals": {
+      "bp": "114/72",
+      "hr": 76,
+      "spo2": 99,
+      "temp": 36.7,
+      "rr": 14,
+      "weight": 60,
+      "height": 157
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "15 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP"
+      },
+      {
+        "timestamp": "18 Dec 2024, 09:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      }
+    ]
+  },
+  {
+    "id": "P023",
+    "uhid": "SRM-2024-00023",
+    "name": "Subramaniam Gopalakrishnan",
+    "age": 71,
+    "gender": "M",
+    "bloodGroup": "A+",
+    "phone": "9876543023",
+    "department": "Vascular Surgery",
+    "diagnosis": "Left Carotid Artery Stenosis (75%)",
+    "surgeryType": "Left Carotid Endarterectomy (CEA)",
+    "surgeon": "Dr. Senthil Murugan",
+    "surgeonId": "S009",
+    "anaesthesiologist": "Dr. Prabhu Anandan",
+    "anaesthesiologistId": "A003",
+    "otRoom": "OT-2",
+    "scheduledDate": "2024-12-21",
+    "scheduledTime": "09:30",
+    "estimatedDuration": 150,
+    "status": "pending_anaes_approval",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Vascular Ward",
+    "bedNumber": "11A",
+    "admissionDate": "2024-12-19",
+    "allergies": [
+      "Aspirin"
+    ],
+    "comorbidities": [
+      "Hypertension",
+      "Atrial Fibrillation",
+      "CKD Stage 3"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-IV",
+    "notes": "OT assigned. Awaiting HOD Anaesthesia approval.",
+    "vitals": {
+      "bp": "148/90",
+      "hr": 80,
+      "spo2": 95,
+      "temp": 37,
+      "rr": 16,
+      "weight": 67,
+      "height": 163
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "13 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "14 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA, ASA-IV. CEA protocol briefed."
+      },
+      {
+        "timestamp": "16 Dec 2024, 09:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "18 Dec 2024, 14:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-2, 21 Dec 09:30"
+      }
+    ]
+  },
+  {
+    "id": "P024",
+    "uhid": "SRM-2024-00024",
+    "name": "Geetha Krishnan",
+    "age": 52,
+    "gender": "F",
+    "bloodGroup": "B+",
+    "phone": "9876543024",
+    "department": "Orthopaedics",
+    "diagnosis": "Right Shoulder Arthritis with Rotator Cuff Tear",
+    "surgeryType": "Total Shoulder Arthroplasty (Reverse) — Right",
+    "surgeon": "Dr. Priya Venkataramaiah",
+    "surgeonId": "S004",
+    "anaesthesiologist": "Dr. Ravi Sundaram",
+    "anaesthesiologistId": "A004",
+    "otRoom": "OT-1",
+    "scheduledDate": "2024-12-22",
+    "scheduledTime": "08:00",
+    "estimatedDuration": 150,
+    "status": "scheduled",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Orthopaedics Ward",
+    "bedNumber": "4A",
+    "admissionDate": "2024-12-21",
+    "allergies": [],
+    "comorbidities": [
+      "Rheumatoid Arthritis (on Methotrexate)"
+    ],
+    "anaesthesiaType": "General Anaesthesia + Interscalene Block",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Methotrexate withheld 2 weeks pre-op. Regional block planned.",
+    "vitals": {
+      "bp": "124/80",
+      "hr": 76,
+      "spo2": 99,
+      "temp": 36.8,
+      "rr": 14,
+      "weight": 64,
+      "height": 160
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "10 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "11 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP"
+      },
+      {
+        "timestamp": "13 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "15 Dec 2024, 09:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "16 Dec 2024, 11:00",
+        "action": "Anaesthesia Approved → Scheduled",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      }
+    ]
+  },
+  {
+    "id": "P026",
+    "uhid": "SRM-2024-00026",
+    "name": "Arjun Selvam",
+    "age": 32,
+    "gender": "M",
+    "bloodGroup": "O+",
+    "phone": "9876543026",
+    "department": "General Surgery",
+    "diagnosis": "Acute Perforated Appendix",
+    "surgeryType": "Emergency Laparoscopic Appendectomy",
+    "surgeon": "Dr. Rajesh Kumar",
+    "surgeonId": "S001",
+    "anaesthesiologist": "",
+    "anaesthesiologistId": "",
+    "otRoom": "",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "",
+    "estimatedDuration": 75,
+    "status": "draft",
+    "pacStatus": "pending",
+    "priority": "daycare",
+    "ward": "Surgical Ward A",
+    "bedNumber": "11A",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "",
+    "anaesthesiaRisk": "ASA-I",
+    "notes": "New admission — acute abdomen. OT slot requested.",
+    "vitals": {
+      "bp": "118/76",
+      "hr": 98,
+      "spo2": 98,
+      "temp": 38.2,
+      "rr": 18,
+      "weight": 70,
+      "height": 174
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "emergency",
+    "history": [
+      {
+        "timestamp": "20 Dec 2024, 06:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward",
+        "notes": "Emergency admission."
+      }
+    ]
+  },
+  {
+    "id": "P027",
+    "uhid": "SRM-2024-00027",
+    "name": "Deepa Murugesan",
+    "age": 45,
+    "gender": "F",
+    "bloodGroup": "A+",
+    "phone": "9876543027",
+    "department": "Gynaecology",
+    "diagnosis": "Ovarian Cyst Torsion",
+    "surgeryType": "Laparoscopic Ovarian Cystectomy",
+    "surgeon": "Dr. Meera Nair",
+    "surgeonId": "S004",
+    "anaesthesiologist": "Dr. Ananya Krishnan",
+    "anaesthesiologistId": "A001",
+    "otRoom": "",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "",
+    "estimatedDuration": 90,
+    "status": "pending_dept_approval",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Gynaecology Ward",
+    "bedNumber": "3C",
+    "admissionDate": "2024-12-19",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "PAC cleared. Awaiting HOD approval.",
+    "vitals": {
+      "bp": "116/74",
+      "hr": 80,
+      "spo2": 99,
+      "temp": 37,
+      "rr": 14,
+      "weight": 58,
+      "height": 162
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "18 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "19 Dec 2024, 09:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA, ASA-II."
+      },
+      {
+        "timestamp": "19 Dec 2024, 15:00",
+        "action": "Schedule Submitted",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "pending_dept_approval",
+        "performedBy": "Surgery OP Ward"
+      }
+    ]
+  },
+  {
+    "id": "P028",
+    "uhid": "SRM-2024-00028",
+    "name": "Senthilkumar Rajan",
+    "age": 55,
+    "gender": "M",
+    "bloodGroup": "B+",
+    "phone": "9876543028",
+    "department": "Orthopaedics",
+    "diagnosis": "Left Knee Meniscus Tear",
+    "surgeryType": "Arthroscopic Meniscectomy — Left Knee",
+    "surgeon": "Dr. Priya Sharma",
+    "surgeonId": "S002",
+    "anaesthesiologist": "Dr. Ravi Sundaram",
+    "anaesthesiologistId": "A004",
+    "otRoom": "OT-5",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "14:00",
+    "estimatedDuration": 60,
+    "status": "scheduled",
+    "pacStatus": "cleared",
+    "priority": "daycare",
+    "ward": "Orthopaedic Ward",
+    "bedNumber": "6D",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [
+      "Mild Hypertension"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Day care procedure. Dischargeable same day.",
+    "vitals": {
+      "bp": "132/84",
+      "hr": 74,
+      "spo2": 98,
+      "temp": 37,
+      "rr": 16,
+      "weight": 80,
+      "height": 170
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "scrubNurse": "Sr. Anitha",
+    "floorNurse": "Sr. Gomathi",
+    "history": [
+      {
+        "timestamp": "14 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "15 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP"
+      },
+      {
+        "timestamp": "16 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "17 Dec 2024, 10:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-5, 20 Dec 14:00"
+      },
+      {
+        "timestamp": "18 Dec 2024, 09:00",
+        "action": "Anaesthesia Approved → Scheduled",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      }
+    ]
+  },
+  {
+    "id": "P029",
+    "uhid": "SRM-2024-00029",
+    "name": "Kamala Devi Parthasarathy",
+    "age": 60,
+    "gender": "F",
+    "bloodGroup": "A-",
+    "phone": "9876543029",
+    "department": "ENT",
+    "diagnosis": "Bilateral Sensorineural Hearing Loss",
+    "surgeryType": "Cochlear Implant — Left",
+    "surgeon": "Dr. Suresh Babu",
+    "surgeonId": "S005",
+    "anaesthesiologist": "Dr. Lakshmi Subramanian",
+    "anaesthesiologistId": "A002",
+    "otRoom": "OT-7",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "10:00",
+    "estimatedDuration": 120,
+    "status": "completed",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "ENT Ward",
+    "bedNumber": "2B",
+    "admissionDate": "2024-12-19",
+    "allergies": [],
+    "comorbidities": [
+      "Type 2 Diabetes (controlled)"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "Surgery completed. Implant activated. Patient recovering well.",
+    "vitals": {
+      "bp": "126/80",
+      "hr": 72,
+      "spo2": 99,
+      "temp": 37,
+      "rr": 14,
+      "weight": 62,
+      "height": 155
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "actualStartTime": "10:10",
+    "actualEndTime": "12:20",
+    "pmrStatus": "completed",
+    "hpeStatus": "sent",
+    "intraOpNotes": "Cochlear implant placed without complications. Electrode impedances normal.",
+    "history": [
+      {
+        "timestamp": "10 Dec 2024, 09:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "12 Dec 2024, 10:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "GA, ASA-II. DM controlled."
+      },
+      {
+        "timestamp": "14 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "16 Dec 2024, 09:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-7, 20 Dec 10:00"
+      },
+      {
+        "timestamp": "17 Dec 2024, 11:00",
+        "action": "Anaesthesia Approved → Scheduled",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      },
+      {
+        "timestamp": "20 Dec 2024, 10:10",
+        "action": "Surgery Started",
+        "fromStatus": "scheduled",
+        "toStatus": "in_progress",
+        "performedBy": "OT Matron"
+      },
+      {
+        "timestamp": "20 Dec 2024, 12:20",
+        "action": "Surgery Completed",
+        "fromStatus": "in_progress",
+        "toStatus": "completed",
+        "performedBy": "OT Matron",
+        "notes": "No complications. HPE sent."
+      }
+    ]
+  },
+  {
+    "id": "P030",
+    "uhid": "SRM-2024-00030",
+    "name": "Murugesan Pillai",
+    "age": 67,
+    "gender": "M",
+    "bloodGroup": "O-",
+    "phone": "9876543030",
+    "department": "Urology",
+    "diagnosis": "Bladder Outlet Obstruction — Severe BPH",
+    "surgeryType": "Holmium Laser Enucleation of Prostate (HoLEP)",
+    "surgeon": "Dr. Anita Iyer",
+    "surgeonId": "S006",
+    "anaesthesiologist": "Dr. Dinesh Patel",
+    "anaesthesiologistId": "A001",
+    "otRoom": "OT-8",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "11:30",
+    "estimatedDuration": 90,
+    "status": "cancelled",
+    "pacStatus": "deferred",
+    "priority": "elective",
+    "ward": "Urology Ward",
+    "bedNumber": "5D",
+    "admissionDate": "2024-12-18",
+    "allergies": [
+      "Penicillin"
+    ],
+    "comorbidities": [
+      "Hypertension",
+      "CKD Stage 3",
+      "Recent MI (3 months)"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-IV",
+    "notes": "Surgery cancelled — recent MI (3 months). Cardiologist clearance required. Rebooking after 6 months.",
+    "vitals": {
+      "bp": "150/94",
+      "hr": 80,
+      "spo2": 96,
+      "temp": 37,
+      "rr": 16,
+      "weight": 75,
+      "height": 165
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": false,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "14 Dec 2024, 09:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "15 Dec 2024, 10:00",
+        "action": "PAC — Deferred",
+        "fromStatus": "pending_fitness",
+        "toStatus": "cancelled",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Recent MI — cardiac clearance needed."
+      }
+    ]
+  },
+  {
+    "id": "P031",
+    "uhid": "SRM-2024-00031",
+    "name": "Aarthi Venkataraman",
+    "age": 28,
+    "gender": "F",
+    "bloodGroup": "B+",
+    "phone": "9876543031",
+    "department": "General Surgery",
+    "diagnosis": "Pilonidal Sinus (Recurrent)",
+    "surgeryType": "Excision of Pilonidal Sinus with Primary Closure",
+    "surgeon": "Dr. Arjun Nair",
+    "surgeonId": "S002",
+    "anaesthesiologist": "Dr. Ananya Krishnan",
+    "anaesthesiologistId": "A001",
+    "otRoom": "",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "",
+    "estimatedDuration": 45,
+    "status": "pending_scheduling",
+    "pacStatus": "cleared",
+    "priority": "daycare",
+    "ward": "General Ward",
+    "bedNumber": "2A",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-I",
+    "notes": "PAC cleared. Day care — needs scheduling and HOD submission.",
+    "vitals": {
+      "bp": "110/70",
+      "hr": 68,
+      "spo2": 100,
+      "temp": 36.5,
+      "rr": 14,
+      "weight": 55,
+      "height": 160
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "19 Dec 2024, 11:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "20 Dec 2024, 08:30",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Spinal. ASA-I. Day care."
+      }
+    ]
+  },
+  {
+    "id": "P025",
+    "uhid": "SRM-2024-00025",
+    "name": "Ravi Shankar Pillai",
+    "age": 45,
+    "gender": "M",
+    "bloodGroup": "O+",
+    "phone": "9876543025",
+    "department": "General Surgery",
+    "diagnosis": "Large Incisional Hernia (Post-Colostomy Closure)",
+    "surgeryType": "Open Incisional Hernia Repair with Mesh",
+    "surgeon": "Dr. Arjun Nair",
+    "surgeonId": "S002",
+    "anaesthesiologist": "",
+    "anaesthesiologistId": "",
+    "otRoom": "",
+    "scheduledDate": "2024-12-17",
+    "scheduledTime": "",
+    "estimatedDuration": 120,
+    "status": "cancelled",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "General Ward",
+    "bedNumber": "5C",
+    "admissionDate": "2024-12-15",
+    "allergies": [
+      "NSAIDS"
+    ],
+    "comorbidities": [
+      "Hypertension",
+      "COPD (Moderate)"
+    ],
+    "anaesthesiaType": "General Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "Surgery cancelled — COPD exacerbation. Bronchodilator therapy started. Re-booking pending.",
+    "vitals": {
+      "bp": "140/90",
+      "hr": 88,
+      "spo2": 92,
+      "temp": 37.4,
+      "rr": 22,
+      "weight": 80,
+      "height": 170
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "10 Dec 2024, 09:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "11 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP"
+      },
+      {
+        "timestamp": "13 Dec 2024, 14:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "14 Dec 2024, 09:00",
+        "action": "Anaesthesia Approved → Scheduled",
+        "fromStatus": "pending_anaes_approval",
+        "toStatus": "scheduled",
+        "performedBy": "HOD Anaesthesia"
+      },
+      {
+        "timestamp": "17 Dec 2024, 07:00",
+        "action": "Surgery Cancelled",
+        "fromStatus": "scheduled",
+        "toStatus": "cancelled",
+        "performedBy": "Department HOD",
+        "notes": "COPD exacerbation — SpO2 92% on room air. Rebooked."
+      }
+    ]
+  },
+  {
+    "id": "P032",
+    "uhid": "SRM-2024-00032",
+    "name": "Priya Lakshmi Sundaram",
+    "age": 38,
+    "gender": "F",
+    "bloodGroup": "B+",
+    "phone": "9876543032",
+    "department": "Obstetrics & Gynaecology",
+    "diagnosis": "Uterine Fibroid — Symptomatic",
+    "surgeryType": "Laparoscopic Myomectomy",
+    "surgeon": "Dr. Meera Nair",
+    "surgeonId": "S004",
+    "anaesthesiologist": "",
+    "anaesthesiologistId": "",
+    "otRoom": "",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "",
+    "estimatedDuration": 100,
+    "status": "pending_fitness",
+    "pacStatus": "pending",
+    "priority": "elective",
+    "ward": "Gynaecology Ward",
+    "bedNumber": "4A",
+    "admissionDate": "2024-12-20",
+    "allergies": [],
+    "comorbidities": [],
+    "anaesthesiaType": "",
+    "anaesthesiaRisk": "ASA-I",
+    "notes": "Awaiting PAC fitness evaluation before scheduling.",
+    "vitals": {
+      "bp": "114/72",
+      "hr": 76,
+      "spo2": 99,
+      "temp": 36.8,
+      "rr": 14,
+      "weight": 62,
+      "height": 158
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "19 Dec 2024, 16:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "20 Dec 2024, 09:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward",
+        "notes": "Sent for fitness evaluation."
+      }
+    ]
+  },
+  {
+    "id": "P033",
+    "uhid": "SRM-2024-00033",
+    "name": "Balachandran Nair",
+    "age": 52,
+    "gender": "M",
+    "bloodGroup": "A-",
+    "phone": "9876543033",
+    "department": "Cardiothoracic Surgery",
+    "diagnosis": "Coronary Artery Disease — Triple Vessel",
+    "surgeryType": "Coronary Artery Bypass Grafting (CABG)",
+    "surgeon": "Dr. Suresh Babu",
+    "surgeonId": "S005",
+    "anaesthesiologist": "",
+    "anaesthesiologistId": "",
+    "otRoom": "",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "",
+    "estimatedDuration": 240,
+    "status": "pending_fitness",
+    "pacStatus": "pending",
+    "priority": "elective",
+    "ward": "Cardiology Ward",
+    "bedNumber": "1B",
+    "admissionDate": "2024-12-19",
+    "allergies": [
+      "Heparin (history of HIT)"
+    ],
+    "comorbidities": [
+      "Hypertension",
+      "Type 2 Diabetes",
+      "Hyperlipidaemia"
+    ],
+    "anaesthesiaType": "",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "High-risk cardiac case. Echo done. Awaiting detailed PAC assessment.",
+    "vitals": {
+      "bp": "138/88",
+      "hr": 82,
+      "spo2": 97,
+      "temp": 37,
+      "rr": 16,
+      "weight": 78,
+      "height": 168
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": false,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "18 Dec 2024, 14:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "19 Dec 2024, 10:00",
+        "action": "Submitted for PAC",
+        "fromStatus": "draft",
+        "toStatus": "pending_fitness",
+        "performedBy": "Surgery OP Ward",
+        "notes": "High-risk. Cardiology echo report attached."
+      }
+    ]
+  },
+  {
+    "id": "P034",
+    "uhid": "SRM-2024-00034",
+    "name": "Vasanthi Krishnamurthy",
+    "age": 44,
+    "gender": "F",
+    "bloodGroup": "O+",
+    "phone": "9876543034",
+    "department": "Orthopaedics",
+    "diagnosis": "Right Hip Osteoarthritis — End Stage",
+    "surgeryType": "Total Hip Replacement — Right",
+    "surgeon": "Dr. Priya Sharma",
+    "surgeonId": "S002",
+    "anaesthesiologist": "Dr. Ravi Sundaram",
+    "anaesthesiologistId": "A004",
+    "otRoom": "",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "",
+    "estimatedDuration": 120,
+    "status": "pending_ot_assignment",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Orthopaedic Ward",
+    "bedNumber": "3F",
+    "admissionDate": "2024-12-18",
+    "allergies": [],
+    "comorbidities": [
+      "Mild Anaemia (Hb 10.2)"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-II",
+    "notes": "HOD approved. Awaiting OT room and staff assignment.",
+    "vitals": {
+      "bp": "122/78",
+      "hr": 78,
+      "spo2": 98,
+      "temp": 36.9,
+      "rr": 15,
+      "weight": 68,
+      "height": 162
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "15 Dec 2024, 10:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "16 Dec 2024, 11:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Spinal. ASA-II. Hb to be monitored."
+      },
+      {
+        "timestamp": "17 Dec 2024, 14:00",
+        "action": "Schedule Submitted",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "pending_dept_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "18 Dec 2024, 10:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      }
+    ]
+  },
+  {
+    "id": "P035",
+    "uhid": "SRM-2024-00035",
+    "name": "Gopalakrishnan Venkatesan",
+    "age": 61,
+    "gender": "M",
+    "bloodGroup": "AB+",
+    "phone": "9876543035",
+    "department": "Urology",
+    "diagnosis": "Renal Calculus — Left Ureter (1.8 cm)",
+    "surgeryType": "Ureteroscopic Lithotripsy (URSL) — Left",
+    "surgeon": "Dr. Anita Iyer",
+    "surgeonId": "S006",
+    "anaesthesiologist": "Dr. Lakshmi Subramanian",
+    "anaesthesiologistId": "A002",
+    "otRoom": "OT-6",
+    "scheduledDate": "2024-12-20",
+    "scheduledTime": "15:30",
+    "estimatedDuration": 75,
+    "status": "pending_anaes_approval",
+    "pacStatus": "cleared",
+    "priority": "elective",
+    "ward": "Urology Ward",
+    "bedNumber": "7C",
+    "admissionDate": "2024-12-19",
+    "allergies": [],
+    "comorbidities": [
+      "Type 2 Diabetes (on insulin)",
+      "CKD Stage 2"
+    ],
+    "anaesthesiaType": "Spinal Anaesthesia",
+    "anaesthesiaRisk": "ASA-III",
+    "notes": "OT assigned. Awaiting HOD Anaesthesia final approval.",
+    "vitals": {
+      "bp": "134/86",
+      "hr": 80,
+      "spo2": 97,
+      "temp": 37.1,
+      "rr": 16,
+      "weight": 72,
+      "height": 166
+    },
+    "checklist": {
+      "consentSigned": true,
+      "nbmStatus": true,
+      "jewelryRemoved": true,
+      "nailPolishRemoved": true,
+      "idBandAttached": true,
+      "ivAccessDone": true,
+      "labsReviewed": true,
+      "ecgReviewed": true,
+      "imagingReviewed": true,
+      "anaesthesiaCleared": true,
+      "surgeonClearance": true,
+      "bloodOrdered": false
+    },
+    "surgeryCategory": "elective",
+    "history": [
+      {
+        "timestamp": "14 Dec 2024, 11:00",
+        "action": "Request Created",
+        "fromStatus": "draft",
+        "toStatus": "draft",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "15 Dec 2024, 13:00",
+        "action": "PAC — Fit",
+        "fromStatus": "pending_fitness",
+        "toStatus": "pending_scheduling",
+        "performedBy": "Anaesthesia OP",
+        "notes": "Spinal. ASA-III. DM — sugar controlled."
+      },
+      {
+        "timestamp": "16 Dec 2024, 15:00",
+        "action": "Schedule Submitted",
+        "fromStatus": "pending_scheduling",
+        "toStatus": "pending_dept_approval",
+        "performedBy": "Surgery OP Ward"
+      },
+      {
+        "timestamp": "17 Dec 2024, 09:00",
+        "action": "HOD Approved",
+        "fromStatus": "pending_dept_approval",
+        "toStatus": "pending_ot_assignment",
+        "performedBy": "Department HOD"
+      },
+      {
+        "timestamp": "18 Dec 2024, 14:00",
+        "action": "OT Assigned",
+        "fromStatus": "pending_ot_assignment",
+        "toStatus": "pending_anaes_approval",
+        "performedBy": "OT Matron",
+        "notes": "OT-6, 20 Dec 15:30"
+      }
+    ]
+  }
+]

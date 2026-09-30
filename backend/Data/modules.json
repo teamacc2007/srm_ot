@@ -1,0 +1,44 @@
+[
+  {
+    "id": "surgery-op-ward",
+    "label": "Surgery OP Ward",
+    "role": "OP Ward Staff",
+    "user": "OP Ward Staff",
+    "department": "Surgical Ward A"
+  },
+  {
+    "id": "anaesthesia-op-pac",
+    "label": "Anaesthesia OP/PAC",
+    "role": "Anaesthesiologist",
+    "user": "Dr. Dinesh Patel",
+    "department": "Anaesthesia Dept."
+  },
+  {
+    "id": "department-hod",
+    "label": "Department HOD",
+    "role": "HOD — General Surgery",
+    "user": "Dr. Ramakrishnan S.",
+    "department": "General Surgery"
+  },
+  {
+    "id": "ot-matron",
+    "label": "OT Matron",
+    "role": "OT Matron",
+    "user": "Sr. Meenakshi R.",
+    "department": "Operation Theatre"
+  },
+  {
+    "id": "hod-anaesthesia",
+    "label": "HOD Anaesthesia",
+    "role": "HOD — Anaesthesia",
+    "user": "Dr. Sunita Krishnan",
+    "department": "Anaesthesia"
+  },
+  {
+    "id": "hospital-admin",
+    "label": "Hospital Admin",
+    "role": "Hospital Administrator",
+    "user": "Mr. Rajan Subramaniam",
+    "department": "Administration"
+  }
+]
